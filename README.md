@@ -1,4 +1,4 @@
-#XLSX to XML Converter
+# XLSX to XML Converter
 
 Smart converting XLSX (Excel 2007) file to XML (UTF-8) file. There are 3 type of node:
 - **Main node** - main container wich contain only row node, can have also attributes witch user can define at conf \ xml.json file.
@@ -16,6 +16,6 @@ User be able following actions:
 - Change row node's name
 - Set up CDATA for column node's.Just add column node's title to array
 
-##Dependncies
+## Dependncies
 - [**hassankhan/config**](https://github.com/hassankhan/config)
 - [**phpoffice/phpspreadsheet**](https://github.com/PHPOffice/PhpSpreadsheet)
