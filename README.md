@@ -1,9 +1,9 @@
 # XLSX to XML Converter
 
 Smart converting XLSX (Excel 2007) file to XML (UTF-8) file. There are 3 type of node:
-- **Main node** - main container wich contain only row node, can have also attributes witch user can define at conf \ xml.json file.
+- **Main node** - main container which contains only row node, can have also attributes which user can define at conf \ xml.json file.
 - **Row node** - can contain only column node.
-- **Column node** - contains only data wich can be wrapped as CDATA
+- **Column node** - contains only data which can be wrapped as CDATA
  
 Firs row of *.xlsx will be ranked as column node's title. 
 Example of Excel sheet available at xlsx/example.xlsx
